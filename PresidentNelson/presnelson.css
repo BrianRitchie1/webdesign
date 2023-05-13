@@ -1,0 +1,15 @@
+nav, body {
+    background-color: pink;
+}
+img  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+nav, h1{
+    color: white;
+}
+nav, p1{
+    color: white;
+}
