@@ -13,10 +13,11 @@ body {
 h1 {
     text-align: center;
 }
-h2 {
+body h2 {
     text-align: center;
     margin: 0 auto;
 }
+
 
 p {
     text-align: center;
