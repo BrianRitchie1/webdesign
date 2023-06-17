@@ -14,10 +14,14 @@ h1 {
     text-align: center;
 }
 h2 {
-    margin: 0;
+    text-align: center;
+    margin: 0 auto;
 }
+
 p {
     text-align: center;
+    margin: 0 auto;
+    width: 95%;
 }
 #content {
     max-width: 1600px;
@@ -36,6 +40,7 @@ nav {
     display: flex;
     justify-content: space-around;
 }
+
 nav a {
     text-align: center;
     color: #fcfbfb;
@@ -87,6 +92,10 @@ main .rivers-card  {
 }
 main .msg{
     text-align: center;
+}
+main .cheese { 
+    text-align: center;
+    padding-top: 10px;
 }
 
 #background {
