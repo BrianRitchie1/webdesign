@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="English">
+<head>
+<link rel="stylesheet" href="../static/styles.css">
+<title>Flask App</title>
+</head>
+<body>
+<h1>Organize your day!</h1>
+<form action="/generate_prompt" method="POST">
+<input type="text" name="prompt" placeholder="Enter your prompt">
+<input type="radio" id="time_hourly" name="time_checkbox" value="hourly">
+<label class="radio" for="time_hourly">Hourly</label>
+<br>
+<input type="radio" id="parts" name="time_checkbox" value="by parts of the day">
+<label class="radio" for="parts">Parts of the day</label>
+
+<button type="submit">Generate</button>
+</form>
+
+{% if generated_text %}
+<h2>Generated Response:</h2>
+<p class="generated-text">{{ generated_text }}</p>
+{% endif %}
+</body>
+</html>
